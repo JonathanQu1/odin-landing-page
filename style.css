@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.hero-section {
+  background-color: #1F2937;   
+  color: #F9FAF8;            
+  padding: 20px 100px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-text button{
+  color: white;
+  border: 0 none;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  background-color: #3882F2;
+  cursor:pointer;
+}
+.hero-image {
+  background-color: #6B7280;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-section {
+  background-color: white ;
+  color: black;
+}
+.info-header {
+  display: flex;
+  justify-content: center;
+}
+
+.info-box{
+  display:flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.info-item button{
+  background-color: white;
+  border:3px solid #3882F2;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.info-item p{
+  max-width: 100px;
+  text-align: center;
+}
+
+.quote-section {
+  background-color: #E5E7EB ;
+}
+.quote-item{ 
+  text-align: center;
+  padding: 50px 200px;
+}
+.quote-item h1{
+  font-weight: 300;
+  color: #1F2937;
+  font-size: 36px;
+  font-style:italic;
+}
+.quote-item p{
+  text-align:end;
+  font-size: 20px;
+}
+
+.cta-section{
+  background: white;
+  padding: 100px;
+}
+
+.cta-item{
+  display:flex;
+  background-color: #3882F2;
+  color:white;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.cta-button{
+  padding: 0 0 0 100px;
+}
+.cta-item button{
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #3882F2;
+  cursor:pointer;
+}
+
+.footer {
+  background-color: #1F2937;  
+  display: flex;
+  justify-content: center;
+}
+.footer p{
+  color: white;
+}
